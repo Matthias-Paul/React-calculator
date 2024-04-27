@@ -1,0 +1,120 @@
+body{
+    display:flex;
+    min-height: 100vh;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 0 auto;
+    
+    
+}
+
+.input{
+  width:92%;
+  padding-top: 65%;
+  text-align:right;
+  font-size: 35px;
+  color: white;
+  background-color: black;
+  border: none;
+  margin-left: 7px;
+  outline: none;
+  white-space: wrap;
+  
+}
+.result{
+    width:92%;
+    text-align: end;
+    font-size: 35px;
+    color: rgb(192, 138, 138);
+    background-color: black;
+    border: none;
+    margin-left: 7px;
+    outline: none;
+  }
+
+.firstBody{
+display: grid;
+grid-template-columns: 60px 60px 60px 60px;
+row-gap: 7px;
+column-gap: 10px;
+justify-content: center;
+margin-top: 5px; 
+
+}
+.secondBody{
+    display: grid;
+    grid-template-columns: 130px 60px 60px ;
+    column-gap:10px;
+    margin-top: 5px;
+    justify-content: center;
+    row-gap: 7px;
+    padding-bottom: 5px;   
+    }
+    .blueBtn{
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+        border: none;
+        font-size: 25px;
+        color:white;
+        background-color: blue;
+        cursor: pointer;
+    }
+    .orangeBtn{
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+        border: none;
+        font-size: 30px;
+        color:white;
+        background-color: orange;
+        cursor: pointer;
+    }
+    .grayBtn{
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+        border: none;
+        font-size: 30px;
+        color:white;
+        background-color: gray;
+        cursor: pointer;
+    }
+    .zeroBtn{
+        height: 60px;
+        border-radius: 60px;
+        border: none;
+        font-size: 30px;
+        color:white;
+        background-color: gray;
+        cursor: pointer;
+    }
+    .blueBtn:active{
+        opacity: 0.9;
+    }
+    .grayBtn:active{
+        opacity: 0.9;
+    }
+    .orangeBtn:active{
+        opacity: 0.9;
+    }
+    .zeroBtn:active{
+        opacity: 0.9;
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

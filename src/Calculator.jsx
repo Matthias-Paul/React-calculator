@@ -4,6 +4,26 @@ export default function Calculator (){
 const [input, setInput] = useState("")
 const [result, setResult] = useState("")
 const inputRef = useRef(null)
+
+
+useEffect (()=> {
+    const storedInput = localStorage.getItem("input");
+    if(storedInput){
+      setInput(JSON.parse(storedInput))
+    }
+      },[])
+    
+      useEffect (()=> {
+         localStorage.setItem("input", JSON.stringify(input));
+    
+          },[input])
+
+
+
+
+
+    
+    
 useEffect (()=> {
     const storedResult = localStorage.getItem("result");
     if(storedResult){
@@ -15,6 +35,17 @@ useEffect (()=> {
          localStorage.setItem("result", JSON.stringify(result));
     
           },[result])
+
+
+
+
+
+
+
+
+
+
+    
 
 function equal (){
 

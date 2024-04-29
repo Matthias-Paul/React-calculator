@@ -12,7 +12,7 @@ useEffect (()=> {
       },[])
     
       useEffect (()=> {
-         localStorage.getItem("result", JSON.stringify(result));
+         localStorage.setItem("result", JSON.stringify(result));
     
           },[result])
 
